@@ -1,5 +1,5 @@
 # public-trader
-Wrapper class that provides the basic structure for a market making or arbitrage trading bot. This class can be modified for both for market making and for arbitrage, however, you will need to create your own strategies and trading logic. It is recommended to create child classes that extend the `base_market_maker` class to modify your own strategy.
+Wrapper class that provides the basic structure for a market making or arbitrage trading bot. This class can be modified for both for market making and for arbitrage, however, you will need to create your own strategies and pricing logic. It is recommended to create child classes that extend the `BaseMarketMaker` class to modify your own strategy.
 
 ## Documentation
 Detailed documentation can be found within the `base_market_maker.py` file in the form of docstring class documentation and comments.
